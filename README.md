@@ -156,8 +156,6 @@ The frontend application features a complete Enterprise Design System powered by
 | **Captain Marvel** | carol.danvers@shield.gov | `MANAGER` | 🇮🇳 India | password123 |
 | **Captain America** | steve.rogers@shield.gov | `MANAGER` | 🇺🇸 America | password123 |
 | **Thanos** | thanos@titan.space | `MEMBER` | 🇮🇳 India | password123 |
-
-> **Project Lead:** [Sudheer Konduboina](https://www.linkedin.com/in/sudheerkonduboina/)
 | **Thor** | thor@asgard.realm | `MEMBER` | 🇮🇳 India | password123 |
 | **Travis** | travis@avengers.org | `MEMBER` | 🇺🇸 America | password123 |
 
@@ -363,7 +361,7 @@ Client → API → Redis (cache-aside) → PostgreSQL
   </a>
   <br/>
   <h3>Sudheer Konduboina</h3>
-  <p>Senior Fullstack Engineer & Systems Architect</p>
+  <p>Software Engineer(Backend) & AIML Engineer</p>
   <a href="https://www.linkedin.com/in/sudheerkonduboina/">
     <img src="https://img.shields.io/badge/LinkedIn-Sudheer_Konduboina-blue?style=flat-square&logo=linkedin" alt="LinkedIn" />
   </a>
