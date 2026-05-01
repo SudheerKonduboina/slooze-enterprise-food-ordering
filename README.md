@@ -213,12 +213,22 @@ make dev-frontend   # Run frontend in dev mode
 make dev-db         # Start only DB + Redis
 make seed           # Seed database
 make logs           # View all logs
-make clean          # Remove containers + volumes
-```
+## 📚 Documentation Index
+
+For deep-dives into specific areas of the platform, please refer to the following guides:
+
+- **[Architecture & System Design](docs/Architecture.md)**: High-level overview of the tech stack and data flow.
+- **[API Specification](docs/API-Spec.md)**: Detailed endpoint documentation and error codes.
+- **[Database Design](docs/Database-Design.md)**: Schema diagrams and ERD breakdown.
+- **[RBAC & Permissions](docs/RBAC-Design.md)**: Role definitions and access policies.
+- **[Design System & Theming](docs/Design-System.md)**: Frontend token architecture and accessibility guide.
+- **[Setup & Deployment Guide](docs/Setup-Guide.md)**: Step-by-step instructions for local and production environments.
+- **[Security & Hardening](docs/Security.md)**: JWT implementation and Country Guard policies.
+- **[Scaling & Performance](docs/Scaling.md)**: Caching strategies and horizontal scaling plan.
 
 ---
 
-## 📡 API Documentation
+## 🚀 Quick Start
 
 ### Interactive Docs
 - **Swagger UI**: [http://localhost:8000/docs](http://localhost:8000/docs)
