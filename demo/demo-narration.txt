@@ -1,0 +1,25 @@
+[00:00 - Introduction]
+"Welcome to the Slooze Food Ordering Platform. Today, I'll be walking you through our production-grade architecture, showcasing our enterprise design system, Role-Based Access Control, and country-level data isolation."
+
+[00:10 - Theming & First Impression]
+"Right away on the login screen, you'll notice our premium Glassmorphism aesthetic. But a modern SaaS platform needs flexibility. Using our newly integrated Enterprise Design System, I can open the theme toggle dropdown here in the corner and switch to Light Mode. Notice how the transition is completely seamless. All design tokens—from shadows to border radii—adapt perfectly. And if I refresh the page... the theme persists instantly, with zero Flash of Unstyled Content. Let's switch back to Dark mode for the rest of the demo."
+
+[00:45 - Admin Login & The Core Loop]
+"Let's log in using our Quick Login system. We'll start as Nick Fury, an Admin based in the US region. As an Admin, Nick has unrestricted access. Looking at the sidebar, he can see everything: Payments, Users, Orders, and Restaurants."
+
+"Let's order some food. I'll navigate to the Restaurants page. Because Nick is assigned to the US region, our backend relational access control ensures he only sees US restaurants, like Liberty Grill. Let's view the menu, add a Classic Cheeseburger to our cart, and head over to checkout. I'll proceed to checkout, select a payment method, and place the order. Instantly, we're taken to the Orders page where we can see our newly placed order. Since Nick is an Admin, he also has the authority to cancel this order if necessary."
+
+[02:00 - Manager Login & Country Isolation]
+"Now, let's look at how our security layers adapt to different users. I'll sign out and log back in as Captain Marvel. She is a Manager, and crucially, she is assigned to the India region."
+
+"Watch what happens when I navigate to the Restaurants page. The data is entirely different. She only sees Indian restaurants like Taj Mahal Kitchen. The backend Country Guard automatically intercepts her JWT token, reads her region claim, and applies row-level filtering to the database. She cannot access US data."
+
+"Also, take a look at the sidebar. Our frontend RBAC system has dynamically hidden the 'Users' and 'Payments' tabs. Managers don't have the clearance to view those pages, so the UI simply removes them."
+
+[03:00 - Member Login & Ultimate Restriction]
+"Finally, let's see the consumer view. I'll sign out one last time and log in as Thanos. Thanos is a standard Member, also in the India region."
+
+"The interface is incredibly focused now. The sidebar only contains the absolute necessities for ordering food. The dashboard statistics are hidden, and if he tries to perform administrative actions on his orders, the system will block him."
+
+[03:30 - Conclusion]
+"What you've just seen is a highly secure, deeply customizable platform. Between our centralized CSS variable architecture, seamless Framer Motion animations, and airtight backend authorization policies, the Slooze Food Ordering platform is fast, beautiful, and completely production-ready. Thank you."
