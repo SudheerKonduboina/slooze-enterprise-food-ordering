@@ -91,9 +91,16 @@ The frontend application features a complete Enterprise Design System powered by
 - **Accessibility**: Hardened with strict WCAG contrast compliance. All interactive components feature comprehensive keyboard navigation support, visible focus rings (`focus-visible`), and ARIA labels.
 - **Performance Considerations**: Implements an early `<script>` injection before React hydration to completely eliminate Flash of Unstyled Content (FOUC). State changes happen under 16ms utilizing GPU-accelerated CSS transitions and Framer Motion layouts.
 
-*(Placeholder for Theme Screenshots)*
-![Light Mode Dashboard](/public/light-mode.png)
-![Dark Mode Dashboard](/public/dark-mode.png)
+## 🖼️ Product Showcase
+
+### 🌓 Theme Comparison Gallery
+
+| Page | Light Mode | Dark Mode |
+|:---:|:---:|:---:|
+| **Login** | ![Login Light](frontend/public/screenshots/login-light.png) | ![Login Dark](frontend/public/screenshots/login-dark.png) |
+| **Restaurants** | ![Restaurants Light](frontend/public/screenshots/restaurants-light.png) | ![Restaurants Dark](frontend/public/screenshots/restaurants-dark.png) |
+| **Menu & Cart** | ![Cart Light](frontend/public/screenshots/cart-light.png) | ![Cart Dark](frontend/public/screenshots/cart-dark.png) |
+| **Checkout** | ![Payment Light](frontend/public/screenshots/payment-light.png) | ![Payment Dark](frontend/public/screenshots/payment-dark.png) |
 
 ---
 
@@ -149,6 +156,8 @@ The frontend application features a complete Enterprise Design System powered by
 | **Captain Marvel** | carol.danvers@shield.gov | `MANAGER` | 🇮🇳 India | password123 |
 | **Captain America** | steve.rogers@shield.gov | `MANAGER` | 🇺🇸 America | password123 |
 | **Thanos** | thanos@titan.space | `MEMBER` | 🇮🇳 India | password123 |
+
+> **Project Lead:** [Sudheer Konduboina](https://www.linkedin.com/in/sudheerkonduboina/)
 | **Thor** | thor@asgard.realm | `MEMBER` | 🇮🇳 India | password123 |
 | **Travis** | travis@avengers.org | `MEMBER` | 🇺🇸 America | password123 |
 
@@ -346,11 +355,22 @@ Client → API → Redis (cache-aside) → PostgreSQL
 
 ---
 
+## 👨‍💻 Developed by
+
+<div align="center">
+  <a href="https://www.linkedin.com/in/sudheerkonduboina/">
+    <img src="frontend/public/sudheer.png" width="120" style="border-radius: 50%;" alt="Sudheer Konduboina" />
+  </a>
+  <br/>
+  <h3>Sudheer Konduboina</h3>
+  <p>Senior Fullstack Engineer & Systems Architect</p>
+  <a href="https://www.linkedin.com/in/sudheerkonduboina/">
+    <img src="https://img.shields.io/badge/LinkedIn-Sudheer_Konduboina-blue?style=flat-square&logo=linkedin" alt="LinkedIn" />
+  </a>
+</div>
+
+---
+
 ## © Copyright Notice
 
 **© Slooze. All Rights Reserved.**
-
-Please do not share or distribute this material outside the intended evaluation process.
-For queries, contact [interview@slooze.xyz](mailto:interview@slooze.xyz).
-
-**Developed by Sudheer Konduboina**
