@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./public/FFFFFF-1.png" alt="Slooze Logo" width="400" />
+  <img src="frontend/public/logo.png" alt="Slooze Logo" width="400" />
 </p>
 
 <h1 align="center">🍽️ Slooze Food Ordering Platform</h1>
